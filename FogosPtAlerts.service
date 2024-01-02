@@ -1,0 +1,12 @@
+[Unit]
+Description=FlightRadarAlerts Alerts Service
+After=network.target
+
+[Service]
+User=pi
+WorkingDirectory=/home/pi/FlightRadarAlerts/
+ExecStart=/usr/bin/python3 /home/pi/FlightRadarAlerts/FlightRadarAlerts.py
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
