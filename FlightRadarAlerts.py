@@ -9,6 +9,7 @@ import traceback
 from FlightRadar24 import FlightRadar24API
 from Misc import get911, sendEmail
 
+
 def haversine_distance(coord1, coord2):
     """
     Calculate the haversine distance between two geographical coordinates.
