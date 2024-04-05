@@ -1,2 +1,3 @@
 # FlightRadarAlerts
- Retrieve flight information from FlightRadar24 API within specified bounds.
+
+Retrieve flight information from FlightRadar24 API within specified bounds.
